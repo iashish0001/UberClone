@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parse.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:13:5-80
+19-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:13:22-77
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\e2d4d2129ae8ca6343f735b0dc64ad0c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\e2d4d2129ae8ca6343f735b0dc64ad0c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\e2d4d2129ae8ca6343f735b0dc64ad0c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:15:5-46:19
+26        android:name="com.parse.starter.StarterApplication"
+26-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:16:9-43
+27        android:allowBackup="true"
+27-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:17:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\9ffd827f26fec24ef4c30be45bcfb632\core-1.0.0\AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:18:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:19:9-41
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:20:9-40
+34
+35        <!--
+36             The API key for Google Maps-based APIs is defined as a string resource.
+37             (See the file "res/values/google_maps_api.xml").
+38             Note that the API key is linked to the encryption key used to sign the APK.
+39             You need a different API key for each encryption key, including the release key that is used to
+40             sign the APK for publishing.
+41             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+42        -->
+43        <meta-data
+43-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:30:9-32:55
+44            android:name="com.google.android.geo.API_KEY"
+44-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:31:13-58
+45            android:value="@string/google_maps_key" />
+45-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:32:13-52
+46
+47        <activity
+47-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:34:9-36:70
+48            android:name="com.parse.starter.RidersActivity"
+48-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:35:13-43
+49            android:label="@string/title_activity_riders" />
+49-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:36:13-58
+50        <activity
+50-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:37:9-45:20
+51            android:name="com.parse.starter.MainActivity"
+51-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:38:13-41
+52            android:label="@string/app_name" >
+52-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:39:13-45
+53            <intent-filter>
+53-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:40:13-44:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:41:17-69
+54-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:41:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:43:17-77
+56-->C:\Users\ASHISH\AndroidStudioProjects\UberClone\ParseStarterProject\src\main\AndroidManifest.xml:43:27-74
+57            </intent-filter>
+58        </activity>
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\e2d4d2129ae8ca6343f735b0dc64ad0c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\e2d4d2129ae8ca6343f735b0dc64ad0c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\e2d4d2129ae8ca6343f735b0dc64ad0c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+65            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+65-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+66            android:excludeFromRecents="true"
+66-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+69        <!--
+70            Service handling Google Sign-In user revocation. For apps that do not integrate with
+71            Google Sign-In, this service will never be started.
+72        -->
+73        <service
+73-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+74            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+74-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+75            android:exported="true"
+75-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+76            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+76-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\5edfad3440b46d2557c2de3c4d69cfb2\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c8db52442272f458620336b240848935\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c8db52442272f458620336b240848935\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c8db52442272f458620336b240848935\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c8db52442272f458620336b240848935\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c241fa458a9c018bd809baaa0fc4846e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c241fa458a9c018bd809baaa0fc4846e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\ASHISH\.gradle\caches\transforms-2\files-2.1\c241fa458a9c018bd809baaa0fc4846e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+86    </application>
+87
+88</manifest>
